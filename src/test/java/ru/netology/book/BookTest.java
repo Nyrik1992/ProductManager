@@ -14,6 +14,7 @@ class BookTest {
 
         assertEquals(expected,actual);
         System.out.println("Автор " + actual);
+
     }
     @Test
     void  testGetAuthorNull(){
